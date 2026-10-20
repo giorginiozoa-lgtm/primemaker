@@ -14,7 +14,7 @@
 </head>
 <body>
 <h1>Datenschutzerklärung PrimeMaker</h1>
-<p class="meta">Stand: 27. September 2026</p>
+<p class="meta">Stand: 20. Oktober 2026</p>
 
 <!-- Gleicher Kontakt wie privacy_contact in strings.xml -->
 <p><strong>Verantwortlich:</strong> G. Zoa (Entwickler der App), g.zoa@optiprint.ch</p>
@@ -35,7 +35,10 @@ Dabei wird technisch deine IP-Adresse übertragen. Die Barcode-Erkennung selbst 
 Essensvorschläge – deine restlichen Tagesziele, dein Ernährungsstil und die Namen deiner Favoriten. Die App nutzt
 die kostenlose Stufe der Gemini-API; gemäss den Nutzungsbedingungen von Google können diese Eingaben von Google zur
 Verbesserung seiner Dienste verwendet werden. Fotografiere deshalb keine Personen oder vertraulichen Dokumente.
-Der Entwickler speichert diese Daten nicht.</p>
+Der Entwickler speichert diese Daten nicht. Die Anfragen laufen über Google Firebase (Firebase AI Logic); zum Schutz
+vor Missbrauch prüft Firebase App Check mit der Google Play Integrity API, ob die Anfrage von einer echten,
+unveränderten Installation der App stammt. Dabei werden technische Geräte- und App-Informationen an Google
+übermittelt, keine Inhalte aus deinem Tagebuch.</p>
 
 <h2>4. Health Connect (Smartwatch / Fitness-Tracker)</h2>
 <p>Optional kannst du die App mit Health Connect verbinden, um Daten deiner Smartwatch oder deines
